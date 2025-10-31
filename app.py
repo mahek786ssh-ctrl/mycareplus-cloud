@@ -39,7 +39,7 @@ st.set_page_config(page_title="MyCare+", page_icon="💊", layout="wide")
 # 🌟 Splash Screen
 if "splash_done" not in st.session_state:
     st.title("💊 MyCare+ — AI Health Companion")
-    st.subheader("Team CodeSlayers | HackNova 2025")
+    st.subheader("Team Hack Clover | HackNova 2025")
     st.markdown("### _Your care, your way — Emotion + AI + Health in one app_")
     st.image("https://cdn-icons-png.flaticon.com/512/9429/9429110.png", width=200)
     st.info("Launching app... please wait ⏳")
@@ -276,4 +276,5 @@ elif section == "🚨 Emergency Contact":
         "Status": ["Dr. Jane Smith (Cardiologist)", "Mom (Family)", "Active", "OK"]
     })
     
+
     st.info("The Emergency Alert button in the sidebar will instantly dispatch a notification with your last known location.")
